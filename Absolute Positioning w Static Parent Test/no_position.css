@@ -1,0 +1,14 @@
+body{
+	background-color: lightblue;
+}
+body div {
+	background-color: #8be0a7;
+	margin-left: 3rem;
+}
+body div div {
+	background-color: #e0a78b;
+	margin-left: 5rem;
+}
+p {
+	background-color: #e08ba7;
+}

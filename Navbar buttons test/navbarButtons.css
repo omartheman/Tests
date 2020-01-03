@@ -1,0 +1,29 @@
+#navbar {
+	/*Color scheme idea:
+	#b55eb1
+	#5eb58e
+	#85b55e
+	Purple, teal, green, (split-complementary)
+	*/
+	/*the colors below are just earlier ideas for color. Only last one applies.*/
+	
+	/*background-color: #e35b52;
+	background-color: #7bc980;
+	background: linear-gradient(90deg, #ff8178, #ff9c2b);*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	animation-name: navbarNightDay;
+	animation-duration: 120s;
+	animation-iteration-count: infinite;
+}
+.navbarButtons {
+	color: black;
+	padding-left: 200px;
+	position: absolute;
+	left: 200px;
+}

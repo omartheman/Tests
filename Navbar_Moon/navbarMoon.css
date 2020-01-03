@@ -1,0 +1,7 @@
+#navbarMoon {
+	background-color: blue; 
+	height: 30px;
+	width: 30px;
+	box-shadow: 10px 10px 10px 10px red;
+	z-index: 10;
+	}

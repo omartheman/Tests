@@ -1,0 +1,10 @@
+#navbar {
+	background-color: #e35b52;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+}
+.navbarButtons{
+	padding-left: 200px;
+	color: black;
+}

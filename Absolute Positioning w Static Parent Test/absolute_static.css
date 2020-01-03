@@ -1,0 +1,19 @@
+body{
+	background-color: mediumseagreen;
+}
+body div {
+	background-color: #8be0a7;
+	margin-left: 3rem;
+}
+body div div {
+	background-color: #e0a78b;
+	margin-left: 5rem;
+}
+p {
+	background-color: #e08ba7;
+	position: absolute; 
+}
+
+/*This test is being conducted to see if position: absolute responds when parent is set to position: static;*/
+
+/*It seems that, once the <p> tag is set to absolute positioning, it is no longer contained by the parent div. This makes sense. */

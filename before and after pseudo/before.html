@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<style type="text/css">
+	body {
+		animation-name: body;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+	#brittany {
+		animation-name: brittany;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+
+		position: absolute;
+			top: 180px;
+			left: 50px;
+		font-size: 50px;
+		letter-spacing: 5px;
+		visibility: visible;
+	}
+	#heart {
+		animation-duration: 5s;
+		animation-name: heartmove;
+		animation-iteration-count: infinite;
+
+		position: absolute;
+			top: 200px;
+			left: 50px;
+		background-color: purple;
+		width:40px;
+		height: 40px;
+		transform: rotate(-45deg);
+	}
+	#heart::after {
+		animation-duration: 5s;
+		animation-name: heartmove1;
+		animation-iteration-count: infinite;
+
+		content: "";
+		background-color: purple;
+		border-radius: 200px;
+		position: absolute;
+			top: -20px;
+		width: 40px;
+		height: 40px;
+	}
+	#heart::before {
+		animation-duration: 5s;
+		animation-name: heartmove1;
+		animation-iteration-count: infinite;
+
+		content: ""; 
+		background-color: purple;
+		border-radius: 200px;
+		position: absolute; 
+			left: 20px;
+		width: 40px;
+		height: 40px;
+	}
+		@keyframes body {
+			16.7% {
+				background-color: red;
+			}
+			33% {
+				background-color: orange;
+			}
+			50% {
+				background-color: yellow;
+			}
+			66.7% {
+				background-color: green; 
+			}
+			83.4% {
+				background-color: blue;
+			}
+			90% {
+				background-color: indigo;
+			}
+			95% {
+				background-color: violet;
+			}
+			100%{
+				background-color: red;
+			}
+		}
+		@keyframes heartmove {
+			50% {
+				left: 900px;
+				transform: rotate(720deg);
+			}
+			16.7% {
+				background-color: blue;
+			}
+			33% {
+				background-color: indigo;
+			}
+			50% {
+				background-color: violet;
+			}
+			66.7% {
+				background-color: red; 
+			}
+			83.4% {
+				background-color: orange;
+			}
+			90% {
+				background-color: yellow;
+			}
+			95% {
+				background-color: green;
+			}
+			100%{
+				background-color: blue;
+			}
+		}
+		@keyframes heartmove1 {
+			16.7% {
+				background-color: blue;
+			}
+			33% {
+				background-color: indigo;
+			}
+			50% {
+				background-color: violet;
+			}
+			66.7% {
+				background-color: red; 
+			}
+			83.4% {
+				background-color: orange;
+			}
+			90% {
+				background-color: yellow;
+			}
+			95% {
+				background-color: green;
+			}
+			100%{
+				background-color: blue;
+			}
+		}
+		@keyframes brittany {
+			0% {
+				color: transparent;
+			}
+			50% {
+				color: black;
+			}
+			100% {
+				color: transparent;
+			}
+		}
+</style>
+
+<div id=heart></div>
+<div id="brittany">Brittany, like Brittany Spears</div>
+
+</body>
+</html>

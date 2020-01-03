@@ -1,0 +1,67 @@
+body {
+	background-color: #ffd396;
+	margin: 0;
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+h1{
+	font-family: 'Comfortaa', cursive;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+#content {
+	display: inline-block;
+	height: 100%;
+	overflow: auto;
+	vertical-align: top;
+	width: 82%;
+}
+#homepageLinks {
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+#linkHobbies{
+	border: 3px solid black;
+	text-align: center;
+	width: 100px;
+}
+#mainContent {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+#regencyProduction {
+	width: 40%;
+}
+#sidebar{
+	height: 100%;
+	width: 160px;
+	position: fixed;  /*Fixed sidebar, stay in place on scroll*/
+	z-index: 1; /*Stay on the top*/
+	top: 0;	/*Stay at the top*/
+	left: 0;
+	overflow-x: hidden; /*Disable horizontal scroll*/
+	background-color: #ff8178;
+	padding-top: 20px;
+}
+#sidebarUL {
+	list-style-type: none;
+}
+#sidebar a {
+	border: 3px solid black;
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 23px;
+  display: block;
+  text-align: center;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
