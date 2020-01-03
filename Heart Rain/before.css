@@ -1,0 +1,433 @@
+body {
+animation-name: body;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+#brittany {
+animation-name: brittany;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+position: absolute;
+	top: 180px;
+	left: 50px;
+font-size: 50px;
+letter-spacing: 5px;
+visibility: visible;
+}
+#heart0 {
+left: 150px;
+animation-delay: 0.3s;
+}
+#heart0::before {
+animation-delay: 0.3s;
+}
+#heart0::after {
+animation-delay: 0.3s;
+}
+
+
+#heart1 {
+left: 250px;
+animation-delay: 0.6s;
+}
+#heart1::before {
+animation-delay: 0.6s;
+}
+#heart1::after {
+animation-delay: 0.6s;
+}
+
+
+#heart2 {
+left: 350px;
+animation-delay: 0.8999999999999999s;
+}
+#heart2::before {
+animation-delay: 0.8999999999999999s;
+}
+#heart2::after {
+animation-delay: 0.8999999999999999s;
+}
+
+
+#heart3 {
+left: 450px;
+animation-delay: 1.2s;
+}
+#heart3::before {
+animation-delay: 1.2s;
+}
+#heart3::after {
+animation-delay: 1.2s;
+}
+
+
+#heart4 {
+left: 550px;
+animation-delay: 1.5s;
+}
+#heart4::before {
+animation-delay: 1.5s;
+}
+#heart4::after {
+animation-delay: 1.5s;
+}
+
+
+#heart5 {
+left: 650px;
+animation-delay: 1.8s;
+}
+#heart5::before {
+animation-delay: 1.8s;
+}
+#heart5::after {
+animation-delay: 1.8s;
+}
+
+
+#heart6 {
+left: 750px;
+animation-delay: 2.0999999999999996s;
+}
+#heart6::before {
+animation-delay: 2.0999999999999996s;
+}
+#heart6::after {
+animation-delay: 2.0999999999999996s;
+}
+
+
+#heart7 {
+left: 850px;
+animation-delay: 2.4s;
+}
+#heart7::before {
+animation-delay: 2.4s;
+}
+#heart7::after {
+animation-delay: 2.4s;
+}
+
+
+#heart8 {
+left: 950px;
+animation-delay: 2.6999999999999997s;
+}
+#heart8::before {
+animation-delay: 2.6999999999999997s;
+}
+#heart8::after {
+animation-delay: 2.6999999999999997s;
+}
+
+
+#heart9 {
+left: 1050px;
+animation-delay: 2.9999999999999996s;
+}
+#heart9::before {
+animation-delay: 2.9999999999999996s;
+}
+#heart9::after {
+animation-delay: 2.9999999999999996s;
+}
+
+
+#heart10 {
+left: 1150px;
+animation-delay: 3.3s;
+}
+#heart10::before {
+animation-delay: 3.3s;
+}
+#heart10::after {
+animation-delay: 3.3s;
+}
+
+
+#heart11 {
+left: 1250px;
+animation-delay: 3.5999999999999996s;
+}
+#heart11::before {
+animation-delay: 3.5999999999999996s;
+}
+#heart11::after {
+animation-delay: 3.5999999999999996s;
+}
+
+
+#heart12 {
+left: 1350px;
+animation-delay: 3.8999999999999995s;
+}
+#heart12::before {
+animation-delay: 3.8999999999999995s;
+}
+#heart12::after {
+animation-delay: 3.8999999999999995s;
+}
+
+
+#heart13 {
+left: 1450px;
+animation-delay: 4.2s;
+}
+#heart13::before {
+animation-delay: 4.2s;
+}
+#heart13::after {
+animation-delay: 4.2s;
+}
+
+
+#heart14 {
+left: 1550px;
+animation-delay: 4.5s;
+}
+#heart14::before {
+animation-delay: 4.5s;
+}
+#heart14::after {
+animation-delay: 4.5s;
+}
+
+
+#heart15 {
+left: 1650px;
+animation-delay: 4.8s;
+}
+#heart15::before {
+animation-delay: 4.8s;
+}
+#heart15::after {
+animation-delay: 4.8s;
+}
+
+
+#heart16 {
+left: 1750px;
+animation-delay: 5.1s;
+}
+#heart16::before {
+animation-delay: 5.1s;
+}
+#heart16::after {
+animation-delay: 5.1s;
+}
+
+
+#heart17 {
+left: 1850px;
+animation-delay: 5.3999999999999995s;
+}
+#heart17::before {
+animation-delay: 5.3999999999999995s;
+}
+#heart17::after {
+animation-delay: 5.3999999999999995s;
+}
+
+
+#heart18 {
+left: 1950px;
+animation-delay: 5.699999999999999s;
+}
+#heart18::before {
+animation-delay: 5.699999999999999s;
+}
+#heart18::after {
+animation-delay: 5.699999999999999s;
+}
+
+
+#heart19 {
+left: 2050px;
+animation-delay: 6s;
+}
+#heart19::before {
+animation-delay: 6s;
+}
+#heart19::after {
+animation-delay: 6s;
+}
+
+
+#heart20 {
+left: 2150px;
+animation-delay: 6.3s;
+}
+#heart20::before {
+animation-delay: 6.3s;
+}
+#heart20::after {
+animation-delay: 6.3s;
+}
+
+
+#heart21 {
+left: 2250px;
+animation-delay: 6.6s;
+}
+#heart21::before {
+animation-delay: 6.6s;
+}
+#heart21::after {
+animation-delay: 6.6s;
+}
+
+
+#heart22 {
+left: 2350px;
+animation-delay: 6.8999999999999995s;
+}
+#heart22::before {
+animation-delay: 6.8999999999999995s;
+}
+#heart22::after {
+animation-delay: 6.8999999999999995s;
+}
+
+
+#heart23 {
+left: 2450px;
+animation-delay: 7.199999999999999s;
+}
+#heart23::before {
+animation-delay: 7.199999999999999s;
+}
+#heart23::after {
+animation-delay: 7.199999999999999s;
+}
+
+
+#heart24 {
+left: 2550px;
+animation-delay: 7.499999999999999s;
+}
+#heart24::before {
+animation-delay: 7.499999999999999s;
+}
+#heart24::after {
+animation-delay: 7.499999999999999s;
+}
+
+
+#heart25 {
+left: 2650px;
+animation-delay: 7.8s;
+}
+#heart25::before {
+animation-delay: 7.8s;
+}
+#heart25::after {
+animation-delay: 7.8s;
+}
+.heart {
+animation-duration: 5s;
+animation-name: heartmove;
+animation-iteration-count: infinite;
+
+position: absolute;
+	top: -100px;
+	left: 50px;
+background-color: purple;
+width:40px;
+height: 40px;
+transform: rotate(-45deg);
+}
+.heart::after {
+animation-duration: 5s;
+animation-name: heartmove1;
+animation-iteration-count: infinite;
+
+content: "";
+background-color: purple;
+border-radius: 200px;
+position: absolute;
+	top: -20px;
+width: 40px;
+height: 40px;
+}
+.heart::before {
+animation-duration: 5s;
+animation-name: heartmove1;
+animation-iteration-count: infinite;
+
+content: ""; 
+background-color: purple;
+border-radius: 200px;
+position: absolute; 
+	left: 20px;
+width: 40px;
+height: 40px;
+}
+
+@keyframes heartmove {
+	50% {
+		top: 900px;
+		transform: rotate(720deg);
+	}
+	16.7% {
+		background-color: blue;
+	}
+	33% {
+		background-color: indigo;
+	}
+	50% {
+		background-color: violet;
+	}
+	66.7% {
+		background-color: red; 
+	}
+	83.4% {
+		background-color: orange;
+	}
+	90% {
+		background-color: yellow;
+	}
+	95% {
+		background-color: green;
+	}
+	100%{
+		background-color: blue;
+	}
+}
+@keyframes heartmove1 {
+	16.7% {
+		background-color: blue;
+	}
+	33% {
+		background-color: indigo;
+	}
+	50% {
+		background-color: violet;
+	}
+	66.7% {
+		background-color: red; 
+	}
+	83.4% {
+		background-color: orange;
+	}
+	90% {
+		background-color: yellow;
+	}
+	95% {
+		background-color: green;
+	}
+	100%{
+		background-color: blue;
+	}
+}
+@keyframes brittany {
+	0% {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color: transparent;
+	}
+}

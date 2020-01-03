@@ -20,3 +20,5 @@ function logoLoop(reps) {
     );
   }
 };
+
+logoLoop(25);

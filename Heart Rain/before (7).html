@@ -1,328 +1,37 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="before.css">
 <head>
 	<title></title>
 </head>
 <body>
-
-<style type="text/css">
-	body {
-		animation-name: body;
-		animation-duration: 5s;
-		animation-iteration-count: infinite;
-	}
-	#brittany {
-		animation-name: brittany;
-		animation-duration: 5s;
-		animation-iteration-count: infinite;
-		position: absolute;
-			top: 180px;
-			left: 50px;
-		font-size: 50px;
-		letter-spacing: 5px;
-		visibility: visible;
-	}
-    #heart0 {
-      left: 150px;
-      animation-delay: 0.3s;
-    }
-    #heart0::before {
-      animation-delay: 0.3s;
-    }
-    #heart0::after {
-      left: 150px;
-      animation-delay: 0.3s;
-    }
-
-    #heart1 {
-      left: 250px;
-      animation-delay: 0.6s;
-    }
-    /*Need to create an animation delay on the animation 'heartmove1'*/
-
-    #heart2 {
-      left: 350px;
-      animation-delay: 0.8999999999999999s;
-    }
-
-    #heart3 {
-      left: 450px;
-      animation-delay: 1.2s;
-    }
-
-    #heart4 {
-      left: 550px;
-      animation-delay: 1.5s;
-    }
-
-    #heart5 {
-      left: 650px;
-      animation-delay: 1.8s;
-    }
-
-    #heart6 {
-      left: 750px;
-      animation-delay: 2.0999999999999996s;
-    }
-
-    #heart7 {
-      left: 850px;
-      animation-delay: 2.4s;
-    }
-
-    #heart8 {
-      left: 950px;
-      animation-delay: 2.6999999999999997s;
-    }
-
-    #heart9 {
-      left: 1050px;
-      animation-delay: 2.9999999999999996s;
-    }
-
-    #heart10 {
-      left: 1150px;
-      animation-delay: 3.3s;
-    }
-
-    #heart11 {
-      left: 1250px;
-      animation-delay: 3.5999999999999996s;
-    }
-
-    #heart12 {
-      left: 1350px;
-      animation-delay: 3.8999999999999995s;
-    }
-
-    #heart13 {
-      left: 1450px;
-      animation-delay: 4.2s;
-    }
-
-    #heart14 {
-      left: 1550px;
-      animation-delay: 4.5s;
-    }
-
-    #heart15 {
-      left: 1650px;
-      animation-delay: 4.8s;
-    }
-
-    #heart16 {
-      left: 1750px;
-      animation-delay: 5.1s;
-    }
-
-    #heart17 {
-      left: 1850px;
-      animation-delay: 5.3999999999999995s;
-    }
-
-    #heart18 {
-      left: 1950px;
-      animation-delay: 5.699999999999999s;
-    }
-
-    #heart19 {
-      left: 2050px;
-      animation-delay: 6s;
-    }
-
-    #heart20 {
-      left: 2150px;
-      animation-delay: 6.3s;
-    }
-
-    #heart21 {
-      left: 2250px;
-      animation-delay: 6.6s;
-    }
-
-    #heart22 {
-      left: 2350px;
-      animation-delay: 6.8999999999999995s;
-    }
-
-    #heart23 {
-      left: 2450px;
-      animation-delay: 7.199999999999999s;
-    }
-
-    #heart24 {
-      left: 2550px;
-      animation-delay: 7.499999999999999s;
-    }
-
-    #heart25 {
-      left: 2650px;
-      animation-delay: 7.8s;
-    }
-    /*Right now only the before and after are matching the original. We need to get the div 'heart' to delay as well.... what is the duplicate of 'heart'?*/
-	.heart {
-		animation-duration: 5s;
-		animation-name: heartmove;
-		animation-iteration-count: infinite;
-
-		position: absolute;
-			top: -100px;
-			left: 50px;
-		background-color: purple;
-		width:40px;
-		height: 40px;
-		transform: rotate(-45deg);
-	}
-	.heart::after {
-		animation-duration: 5s;
-		animation-name: heartmove1;
-		animation-iteration-count: infinite;
-
-		content: "";
-		background-color: purple;
-		border-radius: 200px;
-		position: absolute;
-			top: -20px;
-		width: 40px;
-		height: 40px;
-	}
-	.heart::before {
-		animation-duration: 5s;
-		animation-name: heartmove1;
-		animation-iteration-count: infinite;
-
-		content: ""; 
-		background-color: purple;
-		border-radius: 200px;
-		position: absolute; 
-			left: 20px;
-		width: 40px;
-		height: 40px;
-	}
-	
-		@keyframes heartmove {
-			50% {
-				top: 900px;
-				transform: rotate(720deg);
-			}
-			16.7% {
-				background-color: blue;
-			}
-			33% {
-				background-color: indigo;
-			}
-			50% {
-				background-color: violet;
-			}
-			66.7% {
-				background-color: red; 
-			}
-			83.4% {
-				background-color: orange;
-			}
-			90% {
-				background-color: yellow;
-			}
-			95% {
-				background-color: green;
-			}
-			100%{
-				background-color: blue;
-			}
-		}
-		@keyframes heartmove1 {
-			16.7% {
-				background-color: blue;
-			}
-			33% {
-				background-color: indigo;
-			}
-			50% {
-				background-color: violet;
-			}
-			66.7% {
-				background-color: red; 
-			}
-			83.4% {
-				background-color: orange;
-			}
-			90% {
-				background-color: yellow;
-			}
-			95% {
-				background-color: green;
-			}
-			100%{
-				background-color: blue;
-			}
-		}
-		@keyframes brittany {
-			0% {
-				color: transparent;
-			}
-			50% {
-				color: black;
-			}
-			100% {
-				color: transparent;
-			}
-		}
-</style>
-
-		<div class="heart"></div>
-
- 		<div class="heart" id="heart0"></div>
-
-    <div class="heart" id="heart1"></div>
-
-    <div class="heart" id="heart2"></div>
-
-    <div class="heart" id="heart3"></div>
-
-    <div class="heart" id="heart4"></div>
-
-    <div class="heart" id="heart5"></div>
-
-    <div class="heart" id="heart6"></div>
-
-    <div class="heart" id="heart7"></div>
-
-    <div class="heart" id="heart8"></div>
-
-    <div class="heart" id="heart9"></div>
-
-    <div class="heart" id="heart10"></div>
-
-    <div class="heart" id="heart11"></div>
-
-    <div class="heart" id="heart12"></div>
-
-    <div class="heart" id="heart13"></div>
-
-    <div class="heart" id="heart14"></div>
-
-    <div class="heart" id="heart15"></div>
-
-    <div class="heart" id="heart16"></div>
-
-    <div class="heart" id="heart17"></div>
-
-    <div class="heart" id="heart18"></div>
-
-    <div class="heart" id="heart19"></div>
-
-    <div class="heart" id="heart20"></div>
-
-    <div class="heart" id="heart21"></div>
-
-    <div class="heart" id="heart22"></div>
-
-    <div class="heart" id="heart23"></div>
-
-    <div class="heart" id="heart24"></div>
-
-    <div class="heart" id="heart25"></div>
-<div id="brittany">Brittany, like Brittany Spears</div>
-
+	<div class="heart"></div>
+		<div class="heart" id="heart0"></div>
+	<div class="heart" id="heart1"></div>
+	<div class="heart" id="heart2"></div>
+	<div class="heart" id="heart3"></div>
+	<div class="heart" id="heart4"></div>
+	<div class="heart" id="heart5"></div>
+	<div class="heart" id="heart6"></div>
+	<div class="heart" id="heart7"></div>
+	<div class="heart" id="heart8"></div>
+	<div class="heart" id="heart9"></div>
+	<div class="heart" id="heart10"></div>
+	<div class="heart" id="heart11"></div>
+	<div class="heart" id="heart12"></div>
+	<div class="heart" id="heart13"></div>
+	<div class="heart" id="heart14"></div>
+	<div class="heart" id="heart15"></div>
+	<div class="heart" id="heart16"></div>
+	<div class="heart" id="heart17"></div>
+	<div class="heart" id="heart18"></div>
+	<div class="heart" id="heart19"></div>
+	<div class="heart" id="heart20"></div>
+	<div class="heart" id="heart21"></div>
+	<div class="heart" id="heart22"></div>
+	<div class="heart" id="heart23"></div>
+	<div class="heart" id="heart24"></div>
+	<div class="heart" id="heart25"></div>
+	<div id="brittany">Brittany, like Brittany Spears</div>
 </body>
 </html>
