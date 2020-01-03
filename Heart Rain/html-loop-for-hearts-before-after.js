@@ -4,17 +4,18 @@ function logoLoop(reps) {
   //Start at 0, go to 128.
   for (v = 0; v <= reps; v++) {
     //For each iteration, we must replace only the number 0 in the text. 
-    const a = 0 + v;
-    const b = 3 + 0.3*v;
+    const a = v;
+    const b = 4.5 + 0.3*v;
+    const c = 'C';
     console.log(
-    `    #heartA${a} {
-      left: ${50 + 100*v}px;
+    `    #heart${c + a} {
+      left: ${100*v}px;
       animation-delay: ${b}s;
     }
-    #heartA${a}::before {
+    #heart${c + a}::before {
       animation-delay: ${b}s;
     }
-    #heartA${a}::after {
+    #heart${c + a}::after {
       animation-delay: ${b}s;
     }`
     );

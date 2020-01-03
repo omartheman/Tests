@@ -36,8 +36,15 @@ function show() {
 	for (i = 0; i <= 25; i++) {
 		document.getElementById(`heart${i}`).classList.add('heart');
 	}
+	for (i = 0; i <= 25; i++) {
+		document.getElementById(`heartA${i}`).classList.add('heart');
+	}
+	for (i = 0; i <= 25; i++) {
+		document.getElementById(`heartB${i}`).classList.add('heart');
+	}
 	document.getElementById('circle').style.visibility = 'hidden';
 	document.getElementById('click-here').style.visibility = ('hidden');
 	document.getElementById('wee').style.visibility = ('visible');
+	document.getElementById('nick').style.visibility = ('visible');
 };
 //Check if the divs with these IDs exist in the DOM using console.dir

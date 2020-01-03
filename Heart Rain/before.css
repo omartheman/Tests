@@ -319,14 +319,797 @@ height: 40px;
 #heart25::after {
   animation-delay: 7.5s;
 }
+#heartA0 {
+  left: 0px;
+  animation-delay: 3s;
+}
+#heartA0::before {
+  animation-delay: 3s;
+}
+#heartA0::after {
+  animation-delay: 3s;
+}
+#heartA1 {
+  left: 100px;
+  animation-delay: 3.3s;
+}
+#heartA1::before {
+  animation-delay: 3.3s;
+}
+#heartA1::after {
+  animation-delay: 3.3s;
+}
+#heartA2 {
+  left: 200px;
+  animation-delay: 3.6s;
+}
+#heartA2::before {
+  animation-delay: 3.6s;
+}
+#heartA2::after {
+  animation-delay: 3.6s;
+}
+#heartA3 {
+  left: 300px;
+  animation-delay: 3.9s;
+}
+#heartA3::before {
+  animation-delay: 3.9s;
+}
+#heartA3::after {
+  animation-delay: 3.9s;
+}
+#heartA4 {
+  left: 400px;
+  animation-delay: 4.2s;
+}
+#heartA4::before {
+  animation-delay: 4.2s;
+}
+#heartA4::after {
+  animation-delay: 4.2s;
+}
+#heartA5 {
+  left: 500px;
+  animation-delay: 4.5s;
+}
+#heartA5::before {
+  animation-delay: 4.5s;
+}
+#heartA5::after {
+  animation-delay: 4.5s;
+}
+#heartA6 {
+  left: 600px;
+  animation-delay: 4.8s;
+}
+#heartA6::before {
+  animation-delay: 4.8s;
+}
+#heartA6::after {
+  animation-delay: 4.8s;
+}
+#heartA7 {
+  left: 700px;
+  animation-delay: 5.1s;
+}
+#heartA7::before {
+  animation-delay: 5.1s;
+}
+#heartA7::after {
+  animation-delay: 5.1s;
+}
+#heartA8 {
+  left: 800px;
+  animation-delay: 5.4s;
+}
+#heartA8::before {
+  animation-delay: 5.4s;
+}
+#heartA8::after {
+  animation-delay: 5.4s;
+}
+#heartA9 {
+  left: 900px;
+  animation-delay: 5.699999999999999s;
+}
+#heartA9::before {
+  animation-delay: 5.699999999999999s;
+}
+#heartA9::after {
+  animation-delay: 5.699999999999999s;
+}
+#heartA10 {
+  left: 1000px;
+  animation-delay: 6s;
+}
+#heartA10::before {
+  animation-delay: 6s;
+}
+#heartA10::after {
+  animation-delay: 6s;
+}
+#heartA11 {
+  left: 1100px;
+  animation-delay: 6.3s;
+}
+#heartA11::before {
+  animation-delay: 6.3s;
+}
+#heartA11::after {
+  animation-delay: 6.3s;
+}
+#heartA12 {
+  left: 1200px;
+  animation-delay: 6.6s;
+}
+#heartA12::before {
+  animation-delay: 6.6s;
+}
+#heartA12::after {
+  animation-delay: 6.6s;
+}
+#heartA13 {
+  left: 1300px;
+  animation-delay: 6.9s;
+}
+#heartA13::before {
+  animation-delay: 6.9s;
+}
+#heartA13::after {
+  animation-delay: 6.9s;
+}
+#heartA14 {
+  left: 1400px;
+  animation-delay: 7.2s;
+}
+#heartA14::before {
+  animation-delay: 7.2s;
+}
+#heartA14::after {
+  animation-delay: 7.2s;
+}
+#heartA15 {
+  left: 1500px;
+  animation-delay: 7.5s;
+}
+#heartA15::before {
+  animation-delay: 7.5s;
+}
+#heartA15::after {
+  animation-delay: 7.5s;
+}
+#heartA16 {
+  left: 1600px;
+  animation-delay: 7.8s;
+}
+#heartA16::before {
+  animation-delay: 7.8s;
+}
+#heartA16::after {
+  animation-delay: 7.8s;
+}
+#heartA17 {
+  left: 1700px;
+  animation-delay: 8.1s;
+}
+#heartA17::before {
+  animation-delay: 8.1s;
+}
+#heartA17::after {
+  animation-delay: 8.1s;
+}
+#heartA18 {
+  left: 1800px;
+  animation-delay: 8.399999999999999s;
+}
+#heartA18::before {
+  animation-delay: 8.399999999999999s;
+}
+#heartA18::after {
+  animation-delay: 8.399999999999999s;
+}
+#heartA19 {
+  left: 1900px;
+  animation-delay: 8.7s;
+}
+#heartA19::before {
+  animation-delay: 8.7s;
+}
+#heartA19::after {
+  animation-delay: 8.7s;
+}
+#heartA20 {
+  left: 2000px;
+  animation-delay: 9s;
+}
+#heartA20::before {
+  animation-delay: 9s;
+}
+#heartA20::after {
+  animation-delay: 9s;
+}
+#heartA21 {
+  left: 2100px;
+  animation-delay: 9.3s;
+}
+#heartA21::before {
+  animation-delay: 9.3s;
+}
+#heartA21::after {
+  animation-delay: 9.3s;
+}
+#heartA22 {
+  left: 2200px;
+  animation-delay: 9.6s;
+}
+#heartA22::before {
+  animation-delay: 9.6s;
+}
+#heartA22::after {
+  animation-delay: 9.6s;
+}
+#heartA23 {
+  left: 2300px;
+  animation-delay: 9.899999999999999s;
+}
+#heartA23::before {
+  animation-delay: 9.899999999999999s;
+}
+#heartA23::after {
+  animation-delay: 9.899999999999999s;
+}
+#heartA24 {
+  left: 2400px;
+  animation-delay: 10.2s;
+}
+#heartA24::before {
+  animation-delay: 10.2s;
+}
+#heartA24::after {
+  animation-delay: 10.2s;
+}
+#heartA25 {
+  left: 2500px;
+  animation-delay: 10.5s;
+}
+#heartA25::before {
+  animation-delay: 10.5s;
+}
+#heartA25::after {
+  animation-delay: 10.5s;
+}
+#heartB0 {
+  left: 0px;
+  animation-delay: 1.5s;
+}
+#heartB0::before {
+  animation-delay: 1.5s;
+}
+#heartB0::after {
+  animation-delay: 1.5s;
+}
+#heartB1 {
+  left: 100px;
+  animation-delay: 1.8s;
+}
+#heartB1::before {
+  animation-delay: 1.8s;
+}
+#heartB1::after {
+  animation-delay: 1.8s;
+}
+#heartB2 {
+  left: 200px;
+  animation-delay: 2.1s;
+}
+#heartB2::before {
+  animation-delay: 2.1s;
+}
+#heartB2::after {
+  animation-delay: 2.1s;
+}
+#heartB3 {
+  left: 300px;
+  animation-delay: 2.4s;
+}
+#heartB3::before {
+  animation-delay: 2.4s;
+}
+#heartB3::after {
+  animation-delay: 2.4s;
+}
+#heartB4 {
+  left: 400px;
+  animation-delay: 2.7s;
+}
+#heartB4::before {
+  animation-delay: 2.7s;
+}
+#heartB4::after {
+  animation-delay: 2.7s;
+}
+#heartB5 {
+  left: 500px;
+  animation-delay: 3s;
+}
+#heartB5::before {
+  animation-delay: 3s;
+}
+#heartB5::after {
+  animation-delay: 3s;
+}
+#heartB6 {
+  left: 600px;
+  animation-delay: 3.3s;
+}
+#heartB6::before {
+  animation-delay: 3.3s;
+}
+#heartB6::after {
+  animation-delay: 3.3s;
+}
+#heartB7 {
+  left: 700px;
+  animation-delay: 3.6s;
+}
+#heartB7::before {
+  animation-delay: 3.6s;
+}
+#heartB7::after {
+  animation-delay: 3.6s;
+}
+#heartB8 {
+  left: 800px;
+  animation-delay: 3.9s;
+}
+#heartB8::before {
+  animation-delay: 3.9s;
+}
+#heartB8::after {
+  animation-delay: 3.9s;
+}
+#heartB9 {
+  left: 900px;
+  animation-delay: 4.199999999999999s;
+}
+#heartB9::before {
+  animation-delay: 4.199999999999999s;
+}
+#heartB9::after {
+  animation-delay: 4.199999999999999s;
+}
+#heartB10 {
+  left: 1000px;
+  animation-delay: 4.5s;
+}
+#heartB10::before {
+  animation-delay: 4.5s;
+}
+#heartB10::after {
+  animation-delay: 4.5s;
+}
+#heartB11 {
+  left: 1100px;
+  animation-delay: 4.8s;
+}
+#heartB11::before {
+  animation-delay: 4.8s;
+}
+#heartB11::after {
+  animation-delay: 4.8s;
+}
+#heartB12 {
+  left: 1200px;
+  animation-delay: 5.1s;
+}
+#heartB12::before {
+  animation-delay: 5.1s;
+}
+#heartB12::after {
+  animation-delay: 5.1s;
+}
+#heartB13 {
+  left: 1300px;
+  animation-delay: 5.4s;
+}
+#heartB13::before {
+  animation-delay: 5.4s;
+}
+#heartB13::after {
+  animation-delay: 5.4s;
+}
+#heartB14 {
+  left: 1400px;
+  animation-delay: 5.7s;
+}
+#heartB14::before {
+  animation-delay: 5.7s;
+}
+#heartB14::after {
+  animation-delay: 5.7s;
+}
+#heartB15 {
+  left: 1500px;
+  animation-delay: 6s;
+}
+#heartB15::before {
+  animation-delay: 6s;
+}
+#heartB15::after {
+  animation-delay: 6s;
+}
+#heartB16 {
+  left: 1600px;
+  animation-delay: 6.3s;
+}
+#heartB16::before {
+  animation-delay: 6.3s;
+}
+#heartB16::after {
+  animation-delay: 6.3s;
+}
+#heartB17 {
+  left: 1700px;
+  animation-delay: 6.6s;
+}
+#heartB17::before {
+  animation-delay: 6.6s;
+}
+#heartB17::after {
+  animation-delay: 6.6s;
+}
+#heartB18 {
+  left: 1800px;
+  animation-delay: 6.8999999999999995s;
+}
+#heartB18::before {
+  animation-delay: 6.8999999999999995s;
+}
+#heartB18::after {
+  animation-delay: 6.8999999999999995s;
+}
+#heartB19 {
+  left: 1900px;
+  animation-delay: 7.2s;
+}
+#heartB19::before {
+  animation-delay: 7.2s;
+}
+#heartB19::after {
+  animation-delay: 7.2s;
+}
+#heartB20 {
+  left: 2000px;
+  animation-delay: 7.5s;
+}
+#heartB20::before {
+  animation-delay: 7.5s;
+}
+#heartB20::after {
+  animation-delay: 7.5s;
+}
+#heartB21 {
+  left: 2100px;
+  animation-delay: 7.8s;
+}
+#heartB21::before {
+  animation-delay: 7.8s;
+}
+#heartB21::after {
+  animation-delay: 7.8s;
+}
+#heartB22 {
+  left: 2200px;
+  animation-delay: 8.1s;
+}
+#heartB22::before {
+  animation-delay: 8.1s;
+}
+#heartB22::after {
+  animation-delay: 8.1s;
+}
+#heartB23 {
+  left: 2300px;
+  animation-delay: 8.399999999999999s;
+}
+#heartB23::before {
+  animation-delay: 8.399999999999999s;
+}
+#heartB23::after {
+  animation-delay: 8.399999999999999s;
+}
+#heartB24 {
+  left: 2400px;
+  animation-delay: 8.7s;
+}
+#heartB24::before {
+  animation-delay: 8.7s;
+}
+#heartB24::after {
+  animation-delay: 8.7s;
+}
+#heartB25 {
+  left: 2500px;
+  animation-delay: 9s;
+}
+#heartB25::before {
+  animation-delay: 9s;
+}
+#heartB25::after {
+  animation-delay: 9s;
+}
+#heartC0 {
+  left: 0px;
+  animation-delay: 4.5s;
+}
+#heartC0::before {
+  animation-delay: 4.5s;
+}
+#heartC0::after {
+  animation-delay: 4.5s;
+}
+#heartC1 {
+  left: 100px;
+  animation-delay: 4.8s;
+}
+#heartC1::before {
+  animation-delay: 4.8s;
+}
+#heartC1::after {
+  animation-delay: 4.8s;
+}
+#heartC2 {
+  left: 200px;
+  animation-delay: 5.1s;
+}
+#heartC2::before {
+  animation-delay: 5.1s;
+}
+#heartC2::after {
+  animation-delay: 5.1s;
+}
+#heartC3 {
+  left: 300px;
+  animation-delay: 5.4s;
+}
+#heartC3::before {
+  animation-delay: 5.4s;
+}
+#heartC3::after {
+  animation-delay: 5.4s;
+}
+#heartC4 {
+  left: 400px;
+  animation-delay: 5.7s;
+}
+#heartC4::before {
+  animation-delay: 5.7s;
+}
+#heartC4::after {
+  animation-delay: 5.7s;
+}
+#heartC5 {
+  left: 500px;
+  animation-delay: 6s;
+}
+#heartC5::before {
+  animation-delay: 6s;
+}
+#heartC5::after {
+  animation-delay: 6s;
+}
+#heartC6 {
+  left: 600px;
+  animation-delay: 6.3s;
+}
+#heartC6::before {
+  animation-delay: 6.3s;
+}
+#heartC6::after {
+  animation-delay: 6.3s;
+}
+#heartC7 {
+  left: 700px;
+  animation-delay: 6.6s;
+}
+#heartC7::before {
+  animation-delay: 6.6s;
+}
+#heartC7::after {
+  animation-delay: 6.6s;
+}
+#heartC8 {
+  left: 800px;
+  animation-delay: 6.9s;
+}
+#heartC8::before {
+  animation-delay: 6.9s;
+}
+#heartC8::after {
+  animation-delay: 6.9s;
+}
+#heartC9 {
+  left: 900px;
+  animation-delay: 7.199999999999999s;
+}
+#heartC9::before {
+  animation-delay: 7.199999999999999s;
+}
+#heartC9::after {
+  animation-delay: 7.199999999999999s;
+}
+#heartC10 {
+  left: 1000px;
+  animation-delay: 7.5s;
+}
+#heartC10::before {
+  animation-delay: 7.5s;
+}
+#heartC10::after {
+  animation-delay: 7.5s;
+}
+#heartC11 {
+  left: 1100px;
+  animation-delay: 7.8s;
+}
+#heartC11::before {
+  animation-delay: 7.8s;
+}
+#heartC11::after {
+  animation-delay: 7.8s;
+}
+#heartC12 {
+  left: 1200px;
+  animation-delay: 8.1s;
+}
+#heartC12::before {
+  animation-delay: 8.1s;
+}
+#heartC12::after {
+  animation-delay: 8.1s;
+}
+#heartC13 {
+  left: 1300px;
+  animation-delay: 8.4s;
+}
+#heartC13::before {
+  animation-delay: 8.4s;
+}
+#heartC13::after {
+  animation-delay: 8.4s;
+}
+#heartC14 {
+  left: 1400px;
+  animation-delay: 8.7s;
+}
+#heartC14::before {
+  animation-delay: 8.7s;
+}
+#heartC14::after {
+  animation-delay: 8.7s;
+}
+#heartC15 {
+  left: 1500px;
+  animation-delay: 9s;
+}
+#heartC15::before {
+  animation-delay: 9s;
+}
+#heartC15::after {
+  animation-delay: 9s;
+}
+#heartC16 {
+  left: 1600px;
+  animation-delay: 9.3s;
+}
+#heartC16::before {
+  animation-delay: 9.3s;
+}
+#heartC16::after {
+  animation-delay: 9.3s;
+}
+#heartC17 {
+  left: 1700px;
+  animation-delay: 9.6s;
+}
+#heartC17::before {
+  animation-delay: 9.6s;
+}
+#heartC17::after {
+  animation-delay: 9.6s;
+}
+#heartC18 {
+  left: 1800px;
+  animation-delay: 9.899999999999999s;
+}
+#heartC18::before {
+  animation-delay: 9.899999999999999s;
+}
+#heartC18::after {
+  animation-delay: 9.899999999999999s;
+}
+#heartC19 {
+  left: 1900px;
+  animation-delay: 10.2s;
+}
+#heartC19::before {
+  animation-delay: 10.2s;
+}
+#heartC19::after {
+  animation-delay: 10.2s;
+}
+#heartC20 {
+  left: 2000px;
+  animation-delay: 10.5s;
+}
+#heartC20::before {
+  animation-delay: 10.5s;
+}
+#heartC20::after {
+  animation-delay: 10.5s;
+}
+#heartC21 {
+  left: 2100px;
+  animation-delay: 10.8s;
+}
+#heartC21::before {
+  animation-delay: 10.8s;
+}
+#heartC21::after {
+  animation-delay: 10.8s;
+}
+#heartC22 {
+  left: 2200px;
+  animation-delay: 11.1s;
+}
+#heartC22::before {
+  animation-delay: 11.1s;
+}
+#heartC22::after {
+  animation-delay: 11.1s;
+}
+#heartC23 {
+  left: 2300px;
+  animation-delay: 11.399999999999999s;
+}
+#heartC23::before {
+  animation-delay: 11.399999999999999s;
+}
+#heartC23::after {
+  animation-delay: 11.399999999999999s;
+}
+#heartC24 {
+  left: 2400px;
+  animation-delay: 11.7s;
+}
+#heartC24::before {
+  animation-delay: 11.7s;
+}
+#heartC24::after {
+  animation-delay: 11.7s;
+}
+#heartC25 {
+  left: 2500px;
+  animation-delay: 12s;
+}
+#heartC25::before {
+  animation-delay: 12s;
+}
+#heartC25::after {
+  animation-delay: 12s;
+}
+#nick {
+	visibility: hidden;
+}
 #wee {
+	color: white;
 	position: absolute;
-		top: 180px;
+		top: 50px;
 		left: 50px;
 	font-size: 50px;
 	letter-spacing: 5px;
 	visibility: hidden;
-
 }
 @keyframes heartmove {
 	50% {
