@@ -14,6 +14,54 @@ font-size: 50px;
 letter-spacing: 5px;
 visibility: visible;
 }
+#circle {
+	width: 200px;
+	height: 200px;
+	background-color: maroon;
+	position: absolute;
+		left: 300px;
+		top: 300px;
+	border-radius: 1000px;
+}
+div ~ div {
+	visibility: hidden;
+}
+.heart {
+animation-name: heartmove;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+position: absolute;
+	top: -100px;
+	left: 50px;
+background-color: purple;
+width:40px;
+height: 40px;
+transform: rotate(-45deg);
+}
+.heart::after {
+animation-duration: 5s;
+	animation-name: heartmove1;
+	animation-iteration-count: infinite;
+content: "";
+background-color: purple;
+border-radius: 200px;
+position: absolute;
+	top: -20px;
+width: 40px;
+height: 40px;
+}
+.heart::before {
+animation-name: heartmove1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	content: ""; 
+background-color: purple;
+border-radius: 200px;
+position: absolute; 
+	left: 20px;
+width: 40px;
+height: 40px;
+}
 #heart0 {
 left: 150px;
 animation-delay: 0.3s;
@@ -312,8 +360,6 @@ animation-delay: 7.499999999999999s;
 #heart24::after {
 animation-delay: 7.499999999999999s;
 }
-
-
 #heart25 {
 left: 2650px;
 animation-delay: 7.8s;
@@ -324,110 +370,60 @@ animation-delay: 7.8s;
 #heart25::after {
 animation-delay: 7.8s;
 }
-.heart {
-animation-duration: 5s;
-animation-name: heartmove;
-animation-iteration-count: infinite;
-
-position: absolute;
-	top: -100px;
-	left: 50px;
-background-color: purple;
-width:40px;
-height: 40px;
-transform: rotate(-45deg);
-}
-.heart::after {
-animation-duration: 5s;
-animation-name: heartmove1;
-animation-iteration-count: infinite;
-
-content: "";
-background-color: purple;
-border-radius: 200px;
-position: absolute;
-	top: -20px;
-width: 40px;
-height: 40px;
-}
-.heart::before {
-animation-duration: 5s;
-animation-name: heartmove1;
-animation-iteration-count: infinite;
-
-content: ""; 
-background-color: purple;
-border-radius: 200px;
-position: absolute; 
-	left: 20px;
-width: 40px;
-height: 40px;
-}
-
 @keyframes heartmove {
 	50% {
-		top: 900px;
+		top: 600px;
 		transform: rotate(720deg);
 	}
-	16.7% {
+	6.3% {
 		background-color: blue;
 	}
-	33% {
+	18.8% {
 		background-color: indigo;
 	}
-	50% {
+	31.3% {
 		background-color: violet;
 	}
-	66.7% {
+	43.8% {
 		background-color: red; 
 	}
-	83.4% {
+	56.3% {
 		background-color: orange;
 	}
-	90% {
+	68.8% {
 		background-color: yellow;
 	}
-	95% {
+	81.3% {
 		background-color: green;
 	}
-	100%{
+	93.8%{
 		background-color: blue;
 	}
 }
 @keyframes heartmove1 {
-	16.7% {
+	6.3% {
 		background-color: blue;
 	}
-	33% {
+	18.8% {
 		background-color: indigo;
 	}
-	50% {
+	31.3% {
 		background-color: violet;
 	}
-	66.7% {
+	43.8% {
 		background-color: red; 
 	}
-	83.4% {
+	56.3% {
 		background-color: orange;
 	}
-	90% {
+	68.8% {
 		background-color: yellow;
 	}
-	95% {
+	81.3% {
 		background-color: green;
 	}
-	100%{
+	93.8%{
 		background-color: blue;
 	}
 }
-@keyframes brittany {
-	0% {
-		color: transparent;
-	}
-	50% {
-		color: black;
-	}
-	100% {
-		color: transparent;
-	}
-}
+
