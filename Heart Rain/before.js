@@ -21,10 +21,23 @@ for (i = 0; i <= 25; i++) {
 	document.getElementById(`heart${i}`).style.visibility = 'visible';
 }
 */
-
+/*
 function show() {
 	document.querySelector('.heart').style.visibility = 'visible';
 	for (i = 0; i <= 25; i++) {
 		document.getElementById(`heart${i}`).style.visibility = 'visible';
 	}
 };
+*/
+//Need to add a class to each element that is going to start the animation.
+//Need to add the .heart class to each element.
+//Need to make heart0 the first element.
+function show() {
+	for (i = 0; i <= 25; i++) {
+		document.getElementById(`heart${i}`).classList.add('heart');
+	}
+	document.getElementById('circle').style.visibility = 'hidden';
+	document.getElementById('click-here').style.visibility = ('hidden');
+	document.getElementById('wee').style.visibility = ('visible');
+};
+//Check if the divs with these IDs exist in the DOM using console.dir
