@@ -1,13 +1,4 @@
-
-function logoLoop(reps) {
-  //Write a loop that repeats the text below, but changing the source and the alt code. 
-  //Start at 0, go to 128.
-  for (v = 0; v <= reps; v++) {
-    //For each iteration, we must replace only the number 0 in the text. 
-    console.log(
-    `<div id="heartC${v}"></div>`
-    );
-  }
-};
-
-logoLoop(25);
+for (i = 0; i < 26; i++) {
+  var var$i = i + 2;
+  console.log(var$i);
+}

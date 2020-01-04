@@ -6,8 +6,52 @@
 	<title></title>
 </head>
 <body>
+	<script type="text/javascript">
+		// var div1 = document.createElement('div');
+		// div1.setAttribute('class', 'heartX');
+		// document.querySelector('.heartX').style.backgroundColor = 'pink';
+		/*
+		document.body.onload = addElement;
+
+		function addElement () { 
+		  // create a new div element 
+		  var newDiv = document.createElement("div"); 
+		  // and give it some content 
+		  var newContent = document.createTextNode("Hi there and greetings!"); 
+		  // add the text node to the newly created div
+		  newDiv.appendChild(newContent);  
+
+		  // add the newly created element and its content into the DOM 
+		  var currentDiv = document.getElementById("div1"); 
+		  document.body.insertBefore(newDiv, currentDiv); 
+		}
+		*/
+
+		document.body.onload = addElement;
+
+		function addElement() {
+			var newDiv = document.createElement('div');
+			newDiv.classList.add('bod');
+			newDiv.setAttribute('id', 'heartX')
+			var currentDiv = document.getElementById('circle');
+			document.body.insertBefore(newDiv, currentDiv);
+			//I want to make a loop to add lots of divs that have different numbers in their id's
+			//when using setAttribute, make X change numbers.
+			for (i = 0; i < 26; i++) {
+				var newDiv2 = document.createElement('div');
+				newDiv2.classList.add('bod');
+				newDiv2.setAttribute('id', `heartJS${i}`);
+				newDiv2.style.position = 'absolute';
+				newDiv2.style.left = `${150*i}px`;
+
+				var currentDiv2 = document.getElementById('circle');
+				document.body.insertBefore(newDiv2, currentDiv2);
+			}
+		}
+
+	</script>
 	<div id="circle" onclick="show()"></div>
-	<div></div>
+	<div id='div1'></div>
 	<div id="heart0"></div>
 	<div id="heart1"></div>
 	<div id="heart2"></div>

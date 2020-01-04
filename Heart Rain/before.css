@@ -3,6 +3,11 @@ body {
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
+.bod {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 #click-here {
 	animation-name: brittany;
 	animation-duration: 5s;
@@ -58,6 +63,11 @@ position: absolute;
 	left: 20px;
 width: 40px;
 height: 40px;
+}
+.heartX {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
 #heart0 {
   left: 50px;
