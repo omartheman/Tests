@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="before.js"></script>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="circle" onclick="show()"></div>
+	<div></div>
+	<div id="heart0"></div>
+	<div id="heart1"></div>
+	<div id="heart2"></div>
+	<div id="heart3"></div>
+	<div id="heart4"></div>
+	<div id="heart5"></div>
+	<div id="heart6"></div>
+	<div id="heart7"></div>
+	<div id="heart8"></div>
+	<div id="heart9"></div>
+	<div id="heart10"></div>
+	<div id="heart11"></div>
+	<div id="heart12"></div>
+	<div id="heart13"></div>
+	<div id="heart14"></div>
+	<div id="heart15"></div>
+	<div id="heart16"></div>
+	<div id="heart17"></div>
+	<div id="heart18"></div>
+	<div id="heart19"></div>
+	<div id="heart20"></div>
+	<div id="heart21"></div>
+	<div id="heart22"></div>
+	<div id="heart23"></div>
+	<div id="heart24"></div>
+	<div id="heart25"></div>
+	<div id="heartA0"></div>
+	<div id="heartA1"></div>
+	<div id="heartA2"></div>
+	<div id="heartA3"></div>
+	<div id="heartA4"></div>
+	<div id="heartA5"></div>
+	<div id="heartA6"></div>
+	<div id="heartA7"></div>
+	<div id="heartA8"></div>
+	<div id="heartA9"></div>
+	<div id="heartA10"></div>
+	<div id="heartA11"></div>
+	<div id="heartA12"></div>
+	<div id="heartA13"></div>
+	<div id="heartA14"></div>
+	<div id="heartA15"></div>
+	<div id="heartA16"></div>
+	<div id="heartA17"></div>
+	<div id="heartA18"></div>
+	<div id="heartA19"></div>
+	<div id="heartA20"></div>
+	<div id="heartA21"></div>
+	<div id="heartA22"></div>
+	<div id="heartA23"></div>
+	<div id="heartA24"></div>
+	<div id="heartA25"></div>
+	<div id="heartB0"></div>
+	<div id="heartB1"></div>
+	<div id="heartB2"></div>
+	<div id="heartB3"></div>
+	<div id="heartB4"></div>
+	<div id="heartB5"></div>
+	<div id="heartB6"></div>
+	<div id="heartB7"></div>
+	<div id="heartB8"></div>
+	<div id="heartB9"></div>
+	<div id="heartB10"></div>
+	<div id="heartB11"></div>
+	<div id="heartB12"></div>
+	<div id="heartB13"></div>
+	<div id="heartB14"></div>
+	<div id="heartB15"></div>
+	<div id="heartB16"></div>
+	<div id="heartB17"></div>
+	<div id="heartB18"></div>
+	<div id="heartB19"></div>
+	<div id="heartB20"></div>
+	<div id="heartB21"></div>
+	<div id="heartB22"></div>
+	<div id="heartB23"></div>
+	<div id="heartB24"></div>
+	<div id="heartB25"></div>
+	<div id="heartC0"></div>
+	<div id="heartC1"></div>
+	<div id="heartC2"></div>
+	<div id="heartC3"></div>
+	<div id="heartC4"></div>
+	<div id="heartC5"></div>
+	<div id="heartC6"></div>
+	<div id="heartC7"></div>
+	<div id="heartC8"></div>
+	<div id="heartC9"></div>
+	<div id="heartC10"></div>
+	<div id="heartC11"></div>
+	<div id="heartC12"></div>
+	<div id="heartC13"></div>
+	<div id="heartC14"></div>
+	<div id="heartC15"></div>
+	<div id="heartC16"></div>
+	<div id="heartC17"></div>
+	<div id="heartC18"></div>
+	<div id="heartC19"></div>
+	<div id="heartC20"></div>
+	<div id="heartC21"></div>
+	<div id="heartC22"></div>
+	<div id="heartC23"></div>
+	<div id="heartC24"></div>
+	<div id="heartC25"></div>
+
+
+	<div id="click-here">Click The Circle for a Big Surprise</div>
+	<div id="wee">Weeeeeeeeeeeeeeeeeeeeeeee!! =)</div>
+	<img id="nick" src="https://www.screengeek.net/wp-content/uploads/2017/06/nicolas-cage.png">
+</body>
+<script type="text/javascript">
+	function show() {
+		for (i = 0; i <= 25; i++) {
+			document.getElementById(`heart${i}`).classList.add('heart');
+		}
+		for (i = 0; i <= 25; i++) {
+			document.getElementById(`heartA${i}`).classList.add('heart');
+		}
+		for (i = 0; i <= 25; i++) {
+			document.getElementById(`heartB${i}`).classList.add('heart');
+		}
+		document.getElementById('circle').style.visibility = 'hidden';
+		document.getElementById('click-here').style.visibility = ('hidden');
+		document.getElementById('wee').style.visibility = ('visible');
+		document.getElementById('nick').style.visibility = ('visible');
+	};
+</script>
+<style type="text/css">
+	body {
+		animation-name: body;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		background-color: pink;
+	}
+	#click-here {
+		animation-name: brittany;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		position: absolute;
+			top: 180px;
+			left: 50px;
+		font-size: 50px;
+		letter-spacing: 5px;
+		visibility: visible;
+	}
+	#circle {
+		width: 200px;
+		height: 200px;
+		background-color: maroon;
+		position: absolute;
+			left: 300px;
+			top: 300px;
+		border-radius: 1000px;
+	}
+	.heart {
+	animation-name: heartmove;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	position: absolute;
+		top: -100px;
+		left: 50px;
+	background-color: purple;
+	width:40px;
+	height: 40px;
+	transform: rotate(-45deg);
+	}
+	.heart::after {
+	animation-duration: 5s;
+		animation-name: heartmove1;
+		animation-iteration-count: infinite;
+	content: "";
+	background-color: purple;
+	border-radius: 200px;
+	position: absolute;
+		top: -20px;
+	width: 40px;
+	height: 40px;
+	}
+	.heart::before {
+	animation-name: heartmove1;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		content: ""; 
+	background-color: purple;
+	border-radius: 200px;
+	position: absolute; 
+		left: 20px;
+	width: 40px;
+	height: 40px;
+	}
+	#heart0 {
+	  left: 50px;
+	  animation-delay: 0s;
+	}
+	#heart0::before {
+	  animation-delay: 0s;
+	}
+	#heart0::after {
+	  animation-delay: 0s;
+	}
+	#heart1 {
+	  left: 150px;
+	  animation-delay: 0.3s;
+	}
+	#heart1::before {
+	  animation-delay: 0.3s;
+	}
+	#heart1::after {
+	  animation-delay: 0.3s;
+	}
+	#heart2 {
+	  left: 250px;
+	  animation-delay: 0.6s;
+	}
+	#heart2::before {
+	  animation-delay: 0.6s;
+	}
+	#heart2::after {
+	  animation-delay: 0.6s;
+	}
+	#heart3 {
+	  left: 350px;
+	  animation-delay: 0.8999999999999999s;
+	}
+	#heart3::before {
+	  animation-delay: 0.8999999999999999s;
+	}
+	#heart3::after {
+	  animation-delay: 0.8999999999999999s;
+	}
+	#heart4 {
+	  left: 450px;
+	  animation-delay: 1.2s;
+	}
+	#heart4::before {
+	  animation-delay: 1.2s;
+	}
+	#heart4::after {
+	  animation-delay: 1.2s;
+	}
+	#heart5 {
+	  left: 550px;
+	  animation-delay: 1.5s;
+	}
+	#heart5::before {
+	  animation-delay: 1.5s;
+	}
+	#heart5::after {
+	  animation-delay: 1.5s;
+	}
+	#heart6 {
+	  left: 650px;
+	  animation-delay: 1.7999999999999998s;
+	}
+	#heart6::before {
+	  animation-delay: 1.7999999999999998s;
+	}
+	#heart6::after {
+	  animation-delay: 1.7999999999999998s;
+	}
+	#heart7 {
+	  left: 750px;
+	  animation-delay: 2.1s;
+	}
+	#heart7::before {
+	  animation-delay: 2.1s;
+	}
+	#heart7::after {
+	  animation-delay: 2.1s;
+	}
+	#heart8 {
+	  left: 850px;
+	  animation-delay: 2.4s;
+	}
+	#heart8::before {
+	  animation-delay: 2.4s;
+	}
+	#heart8::after {
+	  animation-delay: 2.4s;
+	}
+	#heart9 {
+	  left: 950px;
+	  animation-delay: 2.6999999999999997s;
+	}
+	#heart9::before {
+	  animation-delay: 2.6999999999999997s;
+	}
+	#heart9::after {
+	  animation-delay: 2.6999999999999997s;
+	}
+	#heart10 {
+	  left: 1050px;
+	  animation-delay: 3s;
+	}
+	#heart10::before {
+	  animation-delay: 3s;
+	}
+	#heart10::after {
+	  animation-delay: 3s;
+	}
+	#heart11 {
+	  left: 1150px;
+	  animation-delay: 3.3s;
+	}
+	#heart11::before {
+	  animation-delay: 3.3s;
+	}
+	#heart11::after {
+	  animation-delay: 3.3s;
+	}
+	#heart12 {
+	  left: 1250px;
+	  animation-delay: 3.5999999999999996s;
+	}
+	#heart12::before {
+	  animation-delay: 3.5999999999999996s;
+	}
+	#heart12::after {
+	  animation-delay: 3.5999999999999996s;
+	}
+	#heart13 {
+	  left: 1350px;
+	  animation-delay: 3.9s;
+	}
+	#heart13::before {
+	  animation-delay: 3.9s;
+	}
+	#heart13::after {
+	  animation-delay: 3.9s;
+	}
+	#heart14 {
+	  left: 1450px;
+	  animation-delay: 4.2s;
+	}
+	#heart14::before {
+	  animation-delay: 4.2s;
+	}
+	#heart14::after {
+	  animation-delay: 4.2s;
+	}
+	#heart15 {
+	  left: 1550px;
+	  animation-delay: 4.5s;
+	}
+	#heart15::before {
+	  animation-delay: 4.5s;
+	}
+	#heart15::after {
+	  animation-delay: 4.5s;
+	}
+	#heart16 {
+	  left: 1650px;
+	  animation-delay: 4.8s;
+	}
+	#heart16::before {
+	  animation-delay: 4.8s;
+	}
+	#heart16::after {
+	  animation-delay: 4.8s;
+	}
+	#heart17 {
+	  left: 1750px;
+	  animation-delay: 5.1s;
+	}
+	#heart17::before {
+	  animation-delay: 5.1s;
+	}
+	#heart17::after {
+	  animation-delay: 5.1s;
+	}
+	#heart18 {
+	  left: 1850px;
+	  animation-delay: 5.3999999999999995s;
+	}
+	#heart18::before {
+	  animation-delay: 5.3999999999999995s;
+	}
+	#heart18::after {
+	  animation-delay: 5.3999999999999995s;
+	}
+	#heart19 {
+	  left: 1950px;
+	  animation-delay: 5.7s;
+	}
+	#heart19::before {
+	  animation-delay: 5.7s;
+	}
+	#heart19::after {
+	  animation-delay: 5.7s;
+	}
+	#heart20 {
+	  left: 2050px;
+	  animation-delay: 6s;
+	}
+	#heart20::before {
+	  animation-delay: 6s;
+	}
+	#heart20::after {
+	  animation-delay: 6s;
+	}
+	#heart21 {
+	  left: 2150px;
+	  animation-delay: 6.3s;
+	}
+	#heart21::before {
+	  animation-delay: 6.3s;
+	}
+	#heart21::after {
+	  animation-delay: 6.3s;
+	}
+	#heart22 {
+	  left: 2250px;
+	  animation-delay: 6.6s;
+	}
+	#heart22::before {
+	  animation-delay: 6.6s;
+	}
+	#heart22::after {
+	  animation-delay: 6.6s;
+	}
+	#heart23 {
+	  left: 2350px;
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heart23::before {
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heart23::after {
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heart24 {
+	  left: 2450px;
+	  animation-delay: 7.199999999999999s;
+	}
+	#heart24::before {
+	  animation-delay: 7.199999999999999s;
+	}
+	#heart24::after {
+	  animation-delay: 7.199999999999999s;
+	}
+	#heart25 {
+	  left: 2550px;
+	  animation-delay: 7.5s;
+	}
+	#heart25::before {
+	  animation-delay: 7.5s;
+	}
+	#heart25::after {
+	  animation-delay: 7.5s;
+	}
+	#heartA0 {
+	  left: 0px;
+	  animation-delay: 3s;
+	}
+	#heartA0::before {
+	  animation-delay: 3s;
+	}
+	#heartA0::after {
+	  animation-delay: 3s;
+	}
+	#heartA1 {
+	  left: 100px;
+	  animation-delay: 3.3s;
+	}
+	#heartA1::before {
+	  animation-delay: 3.3s;
+	}
+	#heartA1::after {
+	  animation-delay: 3.3s;
+	}
+	#heartA2 {
+	  left: 200px;
+	  animation-delay: 3.6s;
+	}
+	#heartA2::before {
+	  animation-delay: 3.6s;
+	}
+	#heartA2::after {
+	  animation-delay: 3.6s;
+	}
+	#heartA3 {
+	  left: 300px;
+	  animation-delay: 3.9s;
+	}
+	#heartA3::before {
+	  animation-delay: 3.9s;
+	}
+	#heartA3::after {
+	  animation-delay: 3.9s;
+	}
+	#heartA4 {
+	  left: 400px;
+	  animation-delay: 4.2s;
+	}
+	#heartA4::before {
+	  animation-delay: 4.2s;
+	}
+	#heartA4::after {
+	  animation-delay: 4.2s;
+	}
+	#heartA5 {
+	  left: 500px;
+	  animation-delay: 4.5s;
+	}
+	#heartA5::before {
+	  animation-delay: 4.5s;
+	}
+	#heartA5::after {
+	  animation-delay: 4.5s;
+	}
+	#heartA6 {
+	  left: 600px;
+	  animation-delay: 4.8s;
+	}
+	#heartA6::before {
+	  animation-delay: 4.8s;
+	}
+	#heartA6::after {
+	  animation-delay: 4.8s;
+	}
+	#heartA7 {
+	  left: 700px;
+	  animation-delay: 5.1s;
+	}
+	#heartA7::before {
+	  animation-delay: 5.1s;
+	}
+	#heartA7::after {
+	  animation-delay: 5.1s;
+	}
+	#heartA8 {
+	  left: 800px;
+	  animation-delay: 5.4s;
+	}
+	#heartA8::before {
+	  animation-delay: 5.4s;
+	}
+	#heartA8::after {
+	  animation-delay: 5.4s;
+	}
+	#heartA9 {
+	  left: 900px;
+	  animation-delay: 5.699999999999999s;
+	}
+	#heartA9::before {
+	  animation-delay: 5.699999999999999s;
+	}
+	#heartA9::after {
+	  animation-delay: 5.699999999999999s;
+	}
+	#heartA10 {
+	  left: 1000px;
+	  animation-delay: 6s;
+	}
+	#heartA10::before {
+	  animation-delay: 6s;
+	}
+	#heartA10::after {
+	  animation-delay: 6s;
+	}
+	#heartA11 {
+	  left: 1100px;
+	  animation-delay: 6.3s;
+	}
+	#heartA11::before {
+	  animation-delay: 6.3s;
+	}
+	#heartA11::after {
+	  animation-delay: 6.3s;
+	}
+	#heartA12 {
+	  left: 1200px;
+	  animation-delay: 6.6s;
+	}
+	#heartA12::before {
+	  animation-delay: 6.6s;
+	}
+	#heartA12::after {
+	  animation-delay: 6.6s;
+	}
+	#heartA13 {
+	  left: 1300px;
+	  animation-delay: 6.9s;
+	}
+	#heartA13::before {
+	  animation-delay: 6.9s;
+	}
+	#heartA13::after {
+	  animation-delay: 6.9s;
+	}
+	#heartA14 {
+	  left: 1400px;
+	  animation-delay: 7.2s;
+	}
+	#heartA14::before {
+	  animation-delay: 7.2s;
+	}
+	#heartA14::after {
+	  animation-delay: 7.2s;
+	}
+	#heartA15 {
+	  left: 1500px;
+	  animation-delay: 7.5s;
+	}
+	#heartA15::before {
+	  animation-delay: 7.5s;
+	}
+	#heartA15::after {
+	  animation-delay: 7.5s;
+	}
+	#heartA16 {
+	  left: 1600px;
+	  animation-delay: 7.8s;
+	}
+	#heartA16::before {
+	  animation-delay: 7.8s;
+	}
+	#heartA16::after {
+	  animation-delay: 7.8s;
+	}
+	#heartA17 {
+	  left: 1700px;
+	  animation-delay: 8.1s;
+	}
+	#heartA17::before {
+	  animation-delay: 8.1s;
+	}
+	#heartA17::after {
+	  animation-delay: 8.1s;
+	}
+	#heartA18 {
+	  left: 1800px;
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartA18::before {
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartA18::after {
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartA19 {
+	  left: 1900px;
+	  animation-delay: 8.7s;
+	}
+	#heartA19::before {
+	  animation-delay: 8.7s;
+	}
+	#heartA19::after {
+	  animation-delay: 8.7s;
+	}
+	#heartA20 {
+	  left: 2000px;
+	  animation-delay: 9s;
+	}
+	#heartA20::before {
+	  animation-delay: 9s;
+	}
+	#heartA20::after {
+	  animation-delay: 9s;
+	}
+	#heartA21 {
+	  left: 2100px;
+	  animation-delay: 9.3s;
+	}
+	#heartA21::before {
+	  animation-delay: 9.3s;
+	}
+	#heartA21::after {
+	  animation-delay: 9.3s;
+	}
+	#heartA22 {
+	  left: 2200px;
+	  animation-delay: 9.6s;
+	}
+	#heartA22::before {
+	  animation-delay: 9.6s;
+	}
+	#heartA22::after {
+	  animation-delay: 9.6s;
+	}
+	#heartA23 {
+	  left: 2300px;
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartA23::before {
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartA23::after {
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartA24 {
+	  left: 2400px;
+	  animation-delay: 10.2s;
+	}
+	#heartA24::before {
+	  animation-delay: 10.2s;
+	}
+	#heartA24::after {
+	  animation-delay: 10.2s;
+	}
+	#heartA25 {
+	  left: 2500px;
+	  animation-delay: 10.5s;
+	}
+	#heartA25::before {
+	  animation-delay: 10.5s;
+	}
+	#heartA25::after {
+	  animation-delay: 10.5s;
+	}
+	#heartB0 {
+	  left: 0px;
+	  animation-delay: 1.5s;
+	}
+	#heartB0::before {
+	  animation-delay: 1.5s;
+	}
+	#heartB0::after {
+	  animation-delay: 1.5s;
+	}
+	#heartB1 {
+	  left: 100px;
+	  animation-delay: 1.8s;
+	}
+	#heartB1::before {
+	  animation-delay: 1.8s;
+	}
+	#heartB1::after {
+	  animation-delay: 1.8s;
+	}
+	#heartB2 {
+	  left: 200px;
+	  animation-delay: 2.1s;
+	}
+	#heartB2::before {
+	  animation-delay: 2.1s;
+	}
+	#heartB2::after {
+	  animation-delay: 2.1s;
+	}
+	#heartB3 {
+	  left: 300px;
+	  animation-delay: 2.4s;
+	}
+	#heartB3::before {
+	  animation-delay: 2.4s;
+	}
+	#heartB3::after {
+	  animation-delay: 2.4s;
+	}
+	#heartB4 {
+	  left: 400px;
+	  animation-delay: 2.7s;
+	}
+	#heartB4::before {
+	  animation-delay: 2.7s;
+	}
+	#heartB4::after {
+	  animation-delay: 2.7s;
+	}
+	#heartB5 {
+	  left: 500px;
+	  animation-delay: 3s;
+	}
+	#heartB5::before {
+	  animation-delay: 3s;
+	}
+	#heartB5::after {
+	  animation-delay: 3s;
+	}
+	#heartB6 {
+	  left: 600px;
+	  animation-delay: 3.3s;
+	}
+	#heartB6::before {
+	  animation-delay: 3.3s;
+	}
+	#heartB6::after {
+	  animation-delay: 3.3s;
+	}
+	#heartB7 {
+	  left: 700px;
+	  animation-delay: 3.6s;
+	}
+	#heartB7::before {
+	  animation-delay: 3.6s;
+	}
+	#heartB7::after {
+	  animation-delay: 3.6s;
+	}
+	#heartB8 {
+	  left: 800px;
+	  animation-delay: 3.9s;
+	}
+	#heartB8::before {
+	  animation-delay: 3.9s;
+	}
+	#heartB8::after {
+	  animation-delay: 3.9s;
+	}
+	#heartB9 {
+	  left: 900px;
+	  animation-delay: 4.199999999999999s;
+	}
+	#heartB9::before {
+	  animation-delay: 4.199999999999999s;
+	}
+	#heartB9::after {
+	  animation-delay: 4.199999999999999s;
+	}
+	#heartB10 {
+	  left: 1000px;
+	  animation-delay: 4.5s;
+	}
+	#heartB10::before {
+	  animation-delay: 4.5s;
+	}
+	#heartB10::after {
+	  animation-delay: 4.5s;
+	}
+	#heartB11 {
+	  left: 1100px;
+	  animation-delay: 4.8s;
+	}
+	#heartB11::before {
+	  animation-delay: 4.8s;
+	}
+	#heartB11::after {
+	  animation-delay: 4.8s;
+	}
+	#heartB12 {
+	  left: 1200px;
+	  animation-delay: 5.1s;
+	}
+	#heartB12::before {
+	  animation-delay: 5.1s;
+	}
+	#heartB12::after {
+	  animation-delay: 5.1s;
+	}
+	#heartB13 {
+	  left: 1300px;
+	  animation-delay: 5.4s;
+	}
+	#heartB13::before {
+	  animation-delay: 5.4s;
+	}
+	#heartB13::after {
+	  animation-delay: 5.4s;
+	}
+	#heartB14 {
+	  left: 1400px;
+	  animation-delay: 5.7s;
+	}
+	#heartB14::before {
+	  animation-delay: 5.7s;
+	}
+	#heartB14::after {
+	  animation-delay: 5.7s;
+	}
+	#heartB15 {
+	  left: 1500px;
+	  animation-delay: 6s;
+	}
+	#heartB15::before {
+	  animation-delay: 6s;
+	}
+	#heartB15::after {
+	  animation-delay: 6s;
+	}
+	#heartB16 {
+	  left: 1600px;
+	  animation-delay: 6.3s;
+	}
+	#heartB16::before {
+	  animation-delay: 6.3s;
+	}
+	#heartB16::after {
+	  animation-delay: 6.3s;
+	}
+	#heartB17 {
+	  left: 1700px;
+	  animation-delay: 6.6s;
+	}
+	#heartB17::before {
+	  animation-delay: 6.6s;
+	}
+	#heartB17::after {
+	  animation-delay: 6.6s;
+	}
+	#heartB18 {
+	  left: 1800px;
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heartB18::before {
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heartB18::after {
+	  animation-delay: 6.8999999999999995s;
+	}
+	#heartB19 {
+	  left: 1900px;
+	  animation-delay: 7.2s;
+	}
+	#heartB19::before {
+	  animation-delay: 7.2s;
+	}
+	#heartB19::after {
+	  animation-delay: 7.2s;
+	}
+	#heartB20 {
+	  left: 2000px;
+	  animation-delay: 7.5s;
+	}
+	#heartB20::before {
+	  animation-delay: 7.5s;
+	}
+	#heartB20::after {
+	  animation-delay: 7.5s;
+	}
+	#heartB21 {
+	  left: 2100px;
+	  animation-delay: 7.8s;
+	}
+	#heartB21::before {
+	  animation-delay: 7.8s;
+	}
+	#heartB21::after {
+	  animation-delay: 7.8s;
+	}
+	#heartB22 {
+	  left: 2200px;
+	  animation-delay: 8.1s;
+	}
+	#heartB22::before {
+	  animation-delay: 8.1s;
+	}
+	#heartB22::after {
+	  animation-delay: 8.1s;
+	}
+	#heartB23 {
+	  left: 2300px;
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartB23::before {
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartB23::after {
+	  animation-delay: 8.399999999999999s;
+	}
+	#heartB24 {
+	  left: 2400px;
+	  animation-delay: 8.7s;
+	}
+	#heartB24::before {
+	  animation-delay: 8.7s;
+	}
+	#heartB24::after {
+	  animation-delay: 8.7s;
+	}
+	#heartB25 {
+	  left: 2500px;
+	  animation-delay: 9s;
+	}
+	#heartB25::before {
+	  animation-delay: 9s;
+	}
+	#heartB25::after {
+	  animation-delay: 9s;
+	}
+	#heartC0 {
+	  left: 0px;
+	  animation-delay: 4.5s;
+	}
+	#heartC0::before {
+	  animation-delay: 4.5s;
+	}
+	#heartC0::after {
+	  animation-delay: 4.5s;
+	}
+	#heartC1 {
+	  left: 100px;
+	  animation-delay: 4.8s;
+	}
+	#heartC1::before {
+	  animation-delay: 4.8s;
+	}
+	#heartC1::after {
+	  animation-delay: 4.8s;
+	}
+	#heartC2 {
+	  left: 200px;
+	  animation-delay: 5.1s;
+	}
+	#heartC2::before {
+	  animation-delay: 5.1s;
+	}
+	#heartC2::after {
+	  animation-delay: 5.1s;
+	}
+	#heartC3 {
+	  left: 300px;
+	  animation-delay: 5.4s;
+	}
+	#heartC3::before {
+	  animation-delay: 5.4s;
+	}
+	#heartC3::after {
+	  animation-delay: 5.4s;
+	}
+	#heartC4 {
+	  left: 400px;
+	  animation-delay: 5.7s;
+	}
+	#heartC4::before {
+	  animation-delay: 5.7s;
+	}
+	#heartC4::after {
+	  animation-delay: 5.7s;
+	}
+	#heartC5 {
+	  left: 500px;
+	  animation-delay: 6s;
+	}
+	#heartC5::before {
+	  animation-delay: 6s;
+	}
+	#heartC5::after {
+	  animation-delay: 6s;
+	}
+	#heartC6 {
+	  left: 600px;
+	  animation-delay: 6.3s;
+	}
+	#heartC6::before {
+	  animation-delay: 6.3s;
+	}
+	#heartC6::after {
+	  animation-delay: 6.3s;
+	}
+	#heartC7 {
+	  left: 700px;
+	  animation-delay: 6.6s;
+	}
+	#heartC7::before {
+	  animation-delay: 6.6s;
+	}
+	#heartC7::after {
+	  animation-delay: 6.6s;
+	}
+	#heartC8 {
+	  left: 800px;
+	  animation-delay: 6.9s;
+	}
+	#heartC8::before {
+	  animation-delay: 6.9s;
+	}
+	#heartC8::after {
+	  animation-delay: 6.9s;
+	}
+	#heartC9 {
+	  left: 900px;
+	  animation-delay: 7.199999999999999s;
+	}
+	#heartC9::before {
+	  animation-delay: 7.199999999999999s;
+	}
+	#heartC9::after {
+	  animation-delay: 7.199999999999999s;
+	}
+	#heartC10 {
+	  left: 1000px;
+	  animation-delay: 7.5s;
+	}
+	#heartC10::before {
+	  animation-delay: 7.5s;
+	}
+	#heartC10::after {
+	  animation-delay: 7.5s;
+	}
+	#heartC11 {
+	  left: 1100px;
+	  animation-delay: 7.8s;
+	}
+	#heartC11::before {
+	  animation-delay: 7.8s;
+	}
+	#heartC11::after {
+	  animation-delay: 7.8s;
+	}
+	#heartC12 {
+	  left: 1200px;
+	  animation-delay: 8.1s;
+	}
+	#heartC12::before {
+	  animation-delay: 8.1s;
+	}
+	#heartC12::after {
+	  animation-delay: 8.1s;
+	}
+	#heartC13 {
+	  left: 1300px;
+	  animation-delay: 8.4s;
+	}
+	#heartC13::before {
+	  animation-delay: 8.4s;
+	}
+	#heartC13::after {
+	  animation-delay: 8.4s;
+	}
+	#heartC14 {
+	  left: 1400px;
+	  animation-delay: 8.7s;
+	}
+	#heartC14::before {
+	  animation-delay: 8.7s;
+	}
+	#heartC14::after {
+	  animation-delay: 8.7s;
+	}
+	#heartC15 {
+	  left: 1500px;
+	  animation-delay: 9s;
+	}
+	#heartC15::before {
+	  animation-delay: 9s;
+	}
+	#heartC15::after {
+	  animation-delay: 9s;
+	}
+	#heartC16 {
+	  left: 1600px;
+	  animation-delay: 9.3s;
+	}
+	#heartC16::before {
+	  animation-delay: 9.3s;
+	}
+	#heartC16::after {
+	  animation-delay: 9.3s;
+	}
+	#heartC17 {
+	  left: 1700px;
+	  animation-delay: 9.6s;
+	}
+	#heartC17::before {
+	  animation-delay: 9.6s;
+	}
+	#heartC17::after {
+	  animation-delay: 9.6s;
+	}
+	#heartC18 {
+	  left: 1800px;
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartC18::before {
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartC18::after {
+	  animation-delay: 9.899999999999999s;
+	}
+	#heartC19 {
+	  left: 1900px;
+	  animation-delay: 10.2s;
+	}
+	#heartC19::before {
+	  animation-delay: 10.2s;
+	}
+	#heartC19::after {
+	  animation-delay: 10.2s;
+	}
+	#heartC20 {
+	  left: 2000px;
+	  animation-delay: 10.5s;
+	}
+	#heartC20::before {
+	  animation-delay: 10.5s;
+	}
+	#heartC20::after {
+	  animation-delay: 10.5s;
+	}
+	#heartC21 {
+	  left: 2100px;
+	  animation-delay: 10.8s;
+	}
+	#heartC21::before {
+	  animation-delay: 10.8s;
+	}
+	#heartC21::after {
+	  animation-delay: 10.8s;
+	}
+	#heartC22 {
+	  left: 2200px;
+	  animation-delay: 11.1s;
+	}
+	#heartC22::before {
+	  animation-delay: 11.1s;
+	}
+	#heartC22::after {
+	  animation-delay: 11.1s;
+	}
+	#heartC23 {
+	  left: 2300px;
+	  animation-delay: 11.399999999999999s;
+	}
+	#heartC23::before {
+	  animation-delay: 11.399999999999999s;
+	}
+	#heartC23::after {
+	  animation-delay: 11.399999999999999s;
+	}
+	#heartC24 {
+	  left: 2400px;
+	  animation-delay: 11.7s;
+	}
+	#heartC24::before {
+	  animation-delay: 11.7s;
+	}
+	#heartC24::after {
+	  animation-delay: 11.7s;
+	}
+	#heartC25 {
+	  left: 2500px;
+	  animation-delay: 12s;
+	}
+	#heartC25::before {
+	  animation-delay: 12s;
+	}
+	#heartC25::after {
+	  animation-delay: 12s;
+	}
+	#nick {
+		visibility: hidden;
+		border-radius: 40px;
+	}
+	#wee {
+		color: white;
+		position: absolute;
+			top: 50px;
+			left: 50px;
+		font-size: 50px;
+		letter-spacing: 5px;
+		visibility: hidden;
+	}
+	@keyframes heartmove {
+		50% {
+			top: 600px;
+			transform: rotate(720deg);
+		}
+		6.3% {
+			background-color: blue;
+		}
+		18.8% {
+			background-color: indigo;
+		}
+		31.3% {
+			background-color: violet;
+		}
+		43.8% {
+			background-color: red; 
+		}
+		56.3% {
+			background-color: orange;
+		}
+		68.8% {
+			background-color: yellow;
+		}
+		81.3% {
+			background-color: green;
+		}
+		93.8%{
+			background-color: blue;
+		}
+	}
+	@keyframes heartmove1 {
+		6.3% {
+			background-color: blue;
+		}
+		18.8% {
+			background-color: indigo;
+		}
+		31.3% {
+			background-color: violet;
+		}
+		43.8% {
+			background-color: red; 
+		}
+		56.3% {
+			background-color: orange;
+		}
+		68.8% {
+			background-color: yellow;
+		}
+		81.3% {
+			background-color: green;
+		}
+		93.8%{
+			background-color: blue;
+		}
+	}
+</style>
+</html>
