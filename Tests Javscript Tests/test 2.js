@@ -59,7 +59,7 @@ console.log(itemNamesArray);
 //How would this array look? Or maybe it would be even better if it was just a string, then it could be moved into excel easier? Maybe an object? Probably an object should be easiest for Excel to interpret........?
 
 const salesObj = {};
-const regexInfoPeices = /((?<=SHIPPEDSHIPPED)(.*)(?=Shipped))|((?<=DELIVEREDDELIVERED)(.*)(?=Delivered))/g;
+const itemName = /((?<=SHIPPEDSHIPPED)(.*)(?=Shipped))|((?<=DELIVEREDDELIVERED)(.*)(?=Delivered))/g;
 //Following code actually wasnt needed. Dynamic numbers can be entered directly into object using bracket notation and es6 backticks (template literals);
 /*
 //The following code creates an array of numbers to use to dynamically name the item name key value pair thats going to be in our sales object. 
@@ -72,7 +72,8 @@ for (i = 0; i < itemNamesArray.length; i++) {
   //This for is looping through the elements of the array. 
   //Find each peice of relevant info from each array, and push it to an object. 
   //Use regex to remove each peice of relevant info
-  let match1 = itemNamesArray[i].match(regexInfoPeices);
+  let match1 = itemNamesArray[i].match(itemName);
+  //The above code matches the item names, and the below code adds them to the salesObj.
   salesObj[`Item ${itemNamesArray.length - i}`] = match1;
   console.log(match1);
   //Do another push to the object. make it so that item3 has multiple key-values. it should be like:
