@@ -59,7 +59,7 @@ console.log(itemNamesArray);
 //How would this array look? Or maybe it would be even better if it was just a string, then it could be moved into excel easier? Maybe an object? Probably an object should be easiest for Excel to interpret........?
 
 const salesObj = {};
-const itemName = /((?<=SHIPPEDSHIPPED)(.*)(?=Shipped))|((?<=DELIVEREDDELIVERED)(.*)(?=Delivered))/g;
+const itemNameRegex = /((?<=SHIPPEDSHIPPED)(.*)(?=Shipped))|((?<=DELIVEREDDELIVERED)(.*)(?=Delivered))/g;
 //Following code actually wasnt needed. Dynamic numbers can be entered directly into object using bracket notation and es6 backticks (template literals);
 /*
 //The following code creates an array of numbers to use to dynamically name the item name key value pair thats going to be in our sales object. 
@@ -68,23 +68,111 @@ for (i = 0; i < itemNamesArray.length; i++) {
   numberArr.push(i + 1);
 }
 */
+/*
 for (i = 0; i < itemNamesArray.length; i++) {
   //This for is looping through the elements of the array. 
   //Find each peice of relevant info from each array, and push it to an object. 
   //Use regex to remove each peice of relevant info
   let match1 = itemNamesArray[i].match(itemName);
   //The above code matches the item names, and the below code adds them to the salesObj.
-  salesObj[`Item ${itemNamesArray.length - i}`] = match1;
+  salesObj.itemObj = {};
+  console.log(salesObj);
+  salesObj[`Item ${itemNamesArray.length - i}`] = match1; //match1 is a string
   console.log(match1);
   //Do another push to the object. make it so that item3 has multiple key-values. it should be like:
   /*
-  item 3:
-    name: ...
+  {item 3:
+    {name: ...
     price: ...
     date sold: ...
     cost of shipping: ...
     paypal cut: ....
+    }
+  }
+  */
+ //So each item should have an object inside of it.
+/*
+};
+console.log(salesObj);
+*/
+const salePriceRegex = /(?<=Item ID.*)(\$\d+\.\d\d)(?=\+)/g;
+for (i = 0; i < itemNamesArray.length; i++) {
+  //This for is looping through the elements of the array. 
+  //Find each peice of relevant info from each array, and push it to an object. 
+  //Use regex to remove each peice of relevant info
+  let match1 = itemNamesArray[i].match(itemNameRegex);
+  //The above code matches the item names, and the below code adds them to the salesObj.
+  salesObj.itemObj = {};
+  let z = `Item ${itemNamesArray.length - i}`;
+  salesObj[z] = {}; //match1 is a string
+  const SO  = salesObj[z]; //Used to not have to write out salesObj
+  salesObj[z].Name = match1[0]; //Match1 seems to return an array, so [0] needed
+  // SO.Price = 1;
+  //Create a regex to match the price of each item.
+  //Done, process is below, outside loop.
+  // const salePriceRegex = /(?<=Item ID.*)(\$\d+\.\d\d)(?=\+)/g;
+  
+  SO.Price = sales.match(salePriceRegex)[i];
+  //Now make a shipping price regex 
+  const shippingCostRegex = /(?<=Shipping.*)(\$\d+\.\d\d)(?=\))/g;
+  SO['Shipping Cost'] = sales.match(shippingCostRegex)[i];
+  //Sale date regex.
+
+  const salesDateRegex = /(?<=Sold on: )(.*?)(?=B)/g;
+  SO['Sale Date'] = sales.match(salesDateRegex)[i];
+
+    
+  const shippingRefundRegex = /(\d+.\d\d?)(?= refunded)/g;
+  SO['Shipping Refund'] = `$${itemNamesArray[i].match(shippingRefundRegex)}`;
+  //Didnt need below code.
+    // for (let j = 0; j < itemNamesArray.length;  j++) {
+    //   console.log(itemNamesArray[j].match(shippingRefundRegex));
+    //   SO['Shipping Refund'] = itemNamesArray[i].match(shippingRefundRegex);
+    // };
+
+  //Works!
+  //Do another push to the object. make it so that item3 has multiple key-values. it should be like:
+  /*
+  {item 3:
+    {name: ...
+    price: ...
+    date sold: ...
+    cost of shipping: ...
+    paypal cut: ....
+    }
+  }
   */
  //So each item should have an object inside of it.
 };
 console.log(salesObj);
+// console.log(sales.match(salePriceRegex));
+// //having touble making greedy matching again.
+// const salePriceRegex = /(?<=SHIPPEDSHIPPED)(.*\$)(\d+\.\d\d)/g;
+// //having touble making greedy matching again.
+// console.log(sales.match(salePriceRegex));
+
+// const salePriceRegex = /(?<=\$)(\d+\.\d\d)/g;
+// console.log(sales.match(salePriceRegex));
+
+// const salePriceRegex = /(?<=Item ID.*)(\$\d+\.\d\d\+)/g;
+// console.log(sales.match(salePriceRegex));
+// //Works!
+
+// const salePriceRegex = /(?<=Item ID.*)(\$\d+\.\d\d)(?=\+)/g;
+// console.log(sales.match(salePriceRegex));
+// //Works!
+
+// const shippingCostRegex = /(?<=Shipping.*)(\$\d+\.\d\d)(?=\))/g;
+// console.log(sales.match(shippingCostRegex));
+// // Works!
+
+// const shippingCostRegex = /(?<=Sold on: )(.*?)(?=B)/g;
+// console.log(sales.match(shippingCostRegex));
+// // // Works!
+// const shippingRefundRegex = /(\d+.\d\d?)(?= refunded)/g;
+// for (let j = 0; j < itemNamesArray.length;  j++) {
+//   console.log(itemNamesArray[j].match(shippingRefundRegex));
+// };
+
+
+//refunded
