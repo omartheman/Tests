@@ -1,3 +1,4 @@
 *.xlsx
 *.docx
 ~$Javascript Bootcamp Hours.xlsx
+/node_modules
